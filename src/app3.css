@@ -1,0 +1,14 @@
+#app3 {
+  border: 1px solid skyblue;
+}
+#app3 > .square {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin-top: 50px;
+  margin-left: 50px;
+  transition: transform 1s;
+}
+#app3 > .square.active {
+  transform: translateX(500px);
+}
